@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw; 
+    height: 40vh;
+    overflow-x: hidden; 
+}
+
+.navContainer {
+    background-color:#FFB347;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+#navlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Pushes Logo to left and Links to right */
+    align-items: center;
+    padding: 0 40px; /* Space on the far left and right edges */
+    width: 100%;
+    color: white;
+}
+
+#navLogo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* FIX: This targets the div that holds your Home, Contact, and About links */
+#navlist li div {
+    display: flex;
+    gap: 30px; /* This creates the space between the links */
+}
+
+#navlist li div a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(4, 47, 85);
+}
+body{
+    background-color: #F5F5DC;
+}
+.contentBox
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+}
+
+.footerBox
+{
+    background-color: #0093E9;
+    color:white;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.item
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 17px
+}
+.img
+{
+    height: 400px;
+   
+}
+.leftBox
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.leftBox h2{
+    font-size: 2rem;
+
+}
+.ingBox{
+    font-size: 1.3rem;
+}
+.recipeBox
+{font-size: 1.1rem;}
